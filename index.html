@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshua Ferguson - Systems Engineer</title>
+    <title>Joshua Ferguson - AI Infrastructure & Platform Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -236,7 +236,7 @@
     <div class="container">
         <header>
             <h1>Joshua Ferguson</h1>
-            <div class="job-title">Founder & CEO, VeriSwarm · Senior Systems Engineer</div>
+            <div class="job-title">Founder & Principal Engineer, VeriSwarm · AI Infrastructure & Platform Engineer</div>
             <div class="contact-info">
                 <span>Phoenix, AZ</span>
                 <span>|</span>
@@ -276,24 +276,24 @@
 
             <div class="experience-item">
                 <div class="experience-header">
-                    <h3>Founder & CEO</h3>
+                    <h3>Founder & Principal Engineer</h3>
                     <span class="date">2026 - Present</span>
                 </div>
                 <div class="company"><a href="https://veriswarm.ai" target="_blank">VeriSwarm</a> - Trust Infrastructure for AI Agents</div>
                 <ul>
                     <li>Founded and built VeriSwarm, a trust scoring and governance SaaS for AI-agent ecosystems. Sole developer from concept to production-ready platform in 3 months.</li>
-                    <li>Engineered a deterministic scoring engine with 26 weighted signals across four trust dimensions (identity, risk, reliability, autonomy), 5 customizable scoring profiles, and real-time policy enforcement returning allow/deny decisions.</li>
-                    <li>Built three product pillars: Guard (security scanning, kill switch), Passport (verified identity, portable JWT credentials), and Evidence (hash-chained immutable audit ledger for compliance).</li>
-                    <li>Developed a 25-tool MCP server for native integration with Claude Desktop, Cursor, and any MCP-compatible agent. Built LangChain framework adapter for automatic agent instrumentation.</li>
-                    <li>Designed compliance-ready AWS infrastructure (Terraform IaC, 9 modules) with SOC 2, ISO 42001, and EU AI Act readiness from day one. CloudTrail, AWS Config, GuardDuty, KMS, and S3 object lock.</li>
-                    <li>Full-stack: FastAPI (Python), Next.js 16 (TypeScript/React), PostgreSQL, Redis, ECS Fargate, Aurora, 271 passing tests across 5 test suites.</li>
+                    <li>Engineered a deterministic scoring engine with 24 weighted behavioral signals across five trust dimensions (identity, risk, reliability, autonomy, calibration), 11 preset scoring profiles, and real-time policy enforcement returning allow/review/deny decisions. Calibration dimension uses Brier scoring with Murphy decomposition to measure how accurately agents predict their own success.</li>
+                    <li>Built seven product pillars: Gate (trust scoring, policy tiers), Guard (PII tokenization proxy, prompt-injection scanning, kill switch), Passport (verified identity, portable ES256 JWT credentials), Vault (hash-chained immutable audit ledger), Cortex (cost-optimized LLM routing, semantic caching, OpenAI-compatible proxy), Fleet (agent templates, 29 integrations), and Cortex Workflows (YAML-driven automation).</li>
+                    <li>Developed a 90+ tool MCP server with setup wizard for Claude Code, Gemini CLI, and Codex, plus automatic PII-guarding hooks. Built LangChain framework adapter for automatic agent instrumentation and a 33-test adversarial red-team harness.</li>
+                    <li>Operate production on a self-hosted 3-node HA Kubernetes (k3s, embedded etcd) cluster: Helm-deployed workloads, CloudNativePG 3-instance Postgres with continuous WAL archiving and point-in-time recovery to object storage, Traefik ingress behind a Cloudflare tunnel, zero-downtime rolling deploys. Compliance-ready AWS reference architecture in Terraform (9 modules) with SOC 2, ISO 42001, and EU AI Act readiness.</li>
+                    <li>Full-stack: FastAPI (Python), Next.js 16 (TypeScript/React), PostgreSQL, Redis, 1,300+ automated tests across API, scoring, and frontend suites.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="experience-header">
                     <h3>Systems Engineer</h3>
-                    <span class="date">August 2021 - Present</span>
+                    <span class="date">April 2024 - Present</span>
                 </div>
                 <div class="company">Arizona Department of Transportation - Phoenix, AZ</div>
                 <ul>
@@ -305,13 +305,25 @@
 
             <div class="experience-item">
                 <div class="experience-header">
+                    <h3>Sr. Network Engineer (Contract)</h3>
+                    <span class="date">August 2021 - March 2024</span>
+                </div>
+                <div class="company">Arizona Department of Transportation (via ABCS Corp) - Phoenix, AZ</div>
+                <ul>
+                    <li>Contract engineer supporting ADOT infrastructure automation and integration; converted to direct ADOT employment in April 2024</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
                     <h3>Infrastructure Architect</h3>
                     <span class="date">July 2013 - July 2020</span>
                 </div>
                 <div class="company">Ensono - Tempe, AZ</div>
                 <ul>
-                    <li>Developed and maintained automation software, scripts, processes, and workflows for industry-leading cloud platform</li>
-                    <li>Architected, deployed, integrated, and managed cloud platform automation infrastructure across 7 global data centers</li>
+                    <li>Architected, deployed, integrated, and managed cloud platform automation infrastructure across 7 global data centers supporting ~7,000 VMs for ~400 enterprise customers</li>
+                    <li>Built provisioning automation that cut VM delivery time to ~30 minutes end-to-end on an industry-leading managed cloud platform</li>
+                    <li>Developed and maintained automation software, scripts, processes, and workflows powering platform operations at scale</li>
                 </ul>
             </div>
 
